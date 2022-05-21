@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animal service when it want to create an animal 1`] = `
+Object {
+  "breed": "Bulldog",
+  "gender": "Male",
+  "id": 1,
+  "name": "Tonny",
+  "vaccinated": true,
+  "vaccines": Array [
+    "moquillo",
+    "parvovirosis",
+  ],
+}
+`;
+
+exports[`Animal service when it want to delete an animal 1`] = `""`;
+
+exports[`Animal service when you want to edit an animal 1`] = `
+Object {
+    "breed": "Bulldog",
+    "gender": "Male",
+    "id": 1,
+    "name": "Tonny",
+    "vaccinated": true,
+    "vaccines": Array [
+      "moquillo",
+      "parvovirosis",
+    ],
+  }
+`;
+
+exports[`Animal service when it want to get an animal 1`] = `
+Object {
+    "breed": "Bulldog",
+    "gender": "Male",
+    "id": 1,
+    "name": "Tonny",
+    "vaccinated": true,
+    "vaccines": Array [
+      "moquillo",
+      "parvovirosis",
+    ],
+  }
+`;
+
+exports[`Animal service when it want to obtain all list of animals 1`] = `
+Array [
+    Object {
+        "breed": "Bulldog",
+        "gender": "Male",
+        "id": 1,
+        "name": "Tonny",
+        "vaccinated": true,
+      }
+]
+`;
